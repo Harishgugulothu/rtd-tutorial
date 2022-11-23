@@ -1,21 +1,22 @@
-T1 : DROP NULL
+Welcome to Lumache's documentation!
+===================================
 
-Inputs: 
-df: SparkDataframe
-Columns: List of column names (List[str])
-How: All or Any
+**Lumache** (/lu'make/) is a Python library for cooks and food lovers
+that creates recipes mixing random ingredients.
+It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
+and offers a *simple* and *intuitive* API.
 
-Example: ........
+Check out the :doc:`usage` section for further information, including
+how to :ref:`installation` the project.
 
+.. note::
 
-How : ANY (example): 1 
+   This project is under active development.
 
-If any row has at least one column value that is null, we remove that row.
+Contents
+--------
 
-...............
+.. toctree::
 
-How : ALL (example): 2
-
-If a row has all column values null, we remove only that row.
-
-.................
+   usage
+   api
